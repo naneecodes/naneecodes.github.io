@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Meta Tags -->
+  {% include meta.html %}
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <img src="{{ site.avatar }}" alt="Header image" class="header-image">
+    <h1>{{ site.name }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>Powered by Jekyll. Designed with soft moods.</p>
+  </footer>
+</body>
+</html>
