@@ -13,11 +13,20 @@
 </head>
 <body>
   <header class="site-header">
-    <img src="{{ site.avatar }}" alt="Header image" class="header-image">
-    <img src="/assets/images/avatar_circle.png" alt="Profile avatar" class="profile-avatar">
+      <!-- Header banner image -->
+    <img src="/assets/images/header.png" alt="Header image" class="header-image">
 
-    <h1>{{ site.name }}</h1>
-    <p>{{ site.description }}</p>
+      <!-- Profile avatar below the banner -->
+      <div class="avatar-container">
+        <img src="/assets/images/avatar_circle.png" alt="Profile avatar" class="profile-avatar">
+        <h1>{{ site.name }}</h1>
+        <p class="site-description">{{ site.description }}</p>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/blog">Blog</a>
+        </nav>
+      </div>
   </header>
 
   <main class="container">
