@@ -79,53 +79,64 @@ body {
   color: #000;
 }
 
+/* Literary Reading Card Style */
 
-/* Blog post container */
-.container, .post, article {
-  max-width: 740px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
+.post {
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: #ffffff;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-  font-family: 'Merriweather', serif;
+.post:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.post h1, .post h2, .post h3, .post h4 {
   font-weight: 700;
-  color: #324d3b;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: #2f3e2d;
 }
 
-/* Paragraphs */
-p {
+.post p {
   margin-bottom: 1.5rem;
-  font-size: 1.05rem;
-  color: #3e3e3e;
+  color: #444;
 }
 
-/* Links */
-a {
+.post a {
   color: #6a8f74;
-  text-decoration: underline dotted;
+  text-decoration: underline;
 }
 
-a:hover {
+.post a:hover {
   color: #3b5c4c;
 }
 
-blockquote {
+.post blockquote {
   font-style: italic;
-  background-color: #f2f2eb;
-  padding: 1rem;
-  border-left: 4px solid #c6d1be;
+  background: #f4f4f0;
+  padding: 1.2rem 1.5rem;
+  border-left: 5px solid #c8d4bd;
   margin: 2rem 0;
+  color: #555;
+  border-radius: 0.5rem;
 }
 
-.date {
-  color: #aaa;
-  font-size: 0.85rem;
-  margin-bottom: 1.5rem;
+.post .date {
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: center;
 }
+
 
 
 .container {

@@ -28,9 +28,11 @@
     </div>
   </header>
 
-  <main class="container">
-    {{ content }}
-  </main>
+<div class="post">
+  <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+  {{ content }}
+</div>
+
 
   <footer class="site-footer">
     <p>Powered by Jekyll. Designed with soft moods.</p>
