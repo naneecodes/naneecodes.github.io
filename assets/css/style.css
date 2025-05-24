@@ -25,11 +25,14 @@ body {
 
 .header-image {
   width: 100%;
-  max-height: 300px;
-  object-fit: cover;
+  max-height: 400px;
+  height: auto;
+  object-fit: contain;
   border-radius: 1rem;
   margin-bottom: 1rem;
+  display: block;
 }
+
 
 .container {
   max-width: 720px;
