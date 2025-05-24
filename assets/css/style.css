@@ -127,6 +127,16 @@ body.dark .post-list li {
   box-shadow: no
 }
 
+body.dark .post blockquote {
+  background: #242424;
+  color: #d0d0c9;
+  border-left: 4px solid #96a98e;
+  font-style: italic;
+  box-shadow: inset 0 0 8px rgba(255,255,255,0.03);
+}
+
+
+
 
 /* Homepage intro styling */
 .home-intro {
