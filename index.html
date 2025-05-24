@@ -3,9 +3,10 @@ layout: default
 title: Home
 ---
 
-<h1>Welcome to <strong>Small Mood Blog</strong> — a soft space for quiet thoughts and slow becoming.</h1>
-
-<h2> 🍀 Latest Posts</h2>
+<div class="home-intro">
+  <h2>Welcome to <em>Small Mood Blog</em></h2>
+  <p>A soft space for quiet thoughts and slow becoming.</p>
+</div>
 
 <ul class="post-list">
   {% for post in site.posts %}
@@ -15,4 +16,5 @@ title: Home
     </li>
   {% endfor %}
 </ul>
+
 

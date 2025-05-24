@@ -79,6 +79,27 @@ body {
   color: #000;
 }
 
+
+/* Homepage intro styling */
+.home-intro {
+  text-align: center;
+  margin: 3rem auto 2rem;
+  font-family: 'Merriweather', serif;
+  color: #3a3a3a;
+}
+
+.home-intro h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2f3e2d;
+}
+
+.home-intro p {
+  font-size: 1.1rem;
+  color: #6b6b6b;
+  margin: 0 auto;
+  max-width: 500px;
+}
 /* Literary Reading Card Style */
 
 .post {
@@ -118,6 +139,8 @@ body {
 .post a:hover {
   color: #3b5c4c;
 }
+
+
 
 .post blockquote {
   font-style: italic;
