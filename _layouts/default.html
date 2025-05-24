@@ -29,11 +29,16 @@
   </header>
 
 <main class="container">
-  <div class="post">
-    <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+  {% if page.layout == "post" %}
+    <div class="post">
+      <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+      {{ content }}
+    </div>
+  {% else %}
     {{ content }}
-  </div>
+  {% endif %}
 </main>
+
 
 
   <footer class="site-footer">
