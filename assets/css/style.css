@@ -137,6 +137,36 @@ body {
   text-align: center;
 }
 
+.post-list {
+  font-family: 'Merriweather', serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.post-list li {
+  margin-bottom: 1.2rem;
+}
+
+.post-list a {
+  text-decoration: none;
+  color: #2f3e2d;
+  font-weight: 600;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+  color: #4e624b;
+}
+
+.post-list .date {
+  font-style: italic;
+  color: #999;
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
 
 
 .container {

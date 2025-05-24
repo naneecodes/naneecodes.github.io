@@ -5,15 +5,14 @@ title: Home
 
 <h1>Welcome to <strong>Small Mood Blog</strong> — a soft space for quiet thoughts and slow becoming.</h1>
 
-<h2>📌 Latest Posts</h2>
+<h2> 🍀 Latest Posts</h2>
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span style="color: #aaa; font-size: 0.9em;">
-        — {{ post.date | date: "%B %d, %Y" }}
-      </span>
+      <span class="date">— {{ post.date | date: "%B %d, %Y" }}</span>
     </li>
   {% endfor %}
 </ul>
+
