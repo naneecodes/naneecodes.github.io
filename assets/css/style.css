@@ -37,7 +37,7 @@ body {
 }
 .avatar-container {
   text-align: center;
-  margin-top: -32px;
+  /* margin-top: -32px; */
   margin-bottom: 2rem;
 }
 
