@@ -27,17 +27,19 @@ body {
 /* avatar and layout stayling  */
 .header-banner {
   background-image: url('/assets/images/header.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 200px;
+  height: 220px;
+  display: block;
+  margin: 0 auto;
   border-radius: 0 0 1rem 1rem;
   box-shadow: inset 0 -10px 20px rgba(0,0,0,0.03);
 }
 .avatar-container {
   text-align: center;
-  /* margin-top: -32px; */
+  margin-top: -40px;
   margin-bottom: 2rem;
 }
 
