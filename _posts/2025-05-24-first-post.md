@@ -1,14 +1,22 @@
 ---
 layout: post
-title: "First Post"
+title: "Welcome to Small Mood Blog"
+date: 2025-06-04
 ---
 
-🌱 This is the very first post on *Small Mood Blog*.
+🌱 Welcome to **Small Mood Blog**: *A Soft Beginning*
 
-It took me about 4 hours to make this blog, and that's because I mostly just spent time playing around with ChatGPT in an attempt to avoid doing homework for my last two weeks of Clinical Practice.
+I started this blog because I wanted a place where I could see and share what's currently on my mind, but without the urgency, pressure and glamour of social media. 
 
-I also may have had a nervous breakdown since one of the few cons of living on a beautiful Korean island is that there's just not many people with whom I can discuss topics of interest to my heart's content. And my poor husband has to deal with me asking a million questions while watching any TV show. 
+This blog was designed with a few choice criteria: 
 
-For the past five years I've been living in Jeju Island and soaking in all of nature's glorious healing energy, but I need a place for output and feedback. That's why I decided to start this blog, so I can just put everything I want to say and discuss in one place. 
+1. **It doesn't hurt my eyes.** Here your eyes can rest on soft text with words meant to soothe and not stimulate. 
 
-> “To grow slowly is still to grow.” — unknown
+2. **There's no ads or clickbait.** I'm not starting this blog for monetization or advertising. This is a place for thoughts to simply exist. 
+
+3. **It honors small moods.** Not everything needs to be a fully formed opinion or polished essay. This is a space where those moments can be held with care. 
+
+This blog is meant to be a small corner of the internet to breathe, slow down, and to notice the brief but meaningful moments that make up the manuscript of our days.  
+
+May this space feel like your favorite morning mug - a quiet place to sit with whatever mood you're carrying today. 
+
