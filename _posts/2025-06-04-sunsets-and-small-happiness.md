@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sunsets and Small Happiness"
-date: 2025-06-25
+date: 2025-06-04
 ---
 
 So I understand that I'm late to the party, but it's never too late to acknowledge what is true. 
