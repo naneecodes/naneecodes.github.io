@@ -121,6 +121,7 @@ body.dark .site-description,
 body.dark .post p,
 body.dark .post h2,
 body.dark .home-intro,
+body.dark .home-intro h2,
 body.dark .post-list a {
   color: #e8ede8;
 }
